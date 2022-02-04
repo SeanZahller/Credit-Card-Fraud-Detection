@@ -1,0 +1,10 @@
+from sklearn.model_selection import train_test_split
+import math
+import pandas as pd
+from sklearn.naive_bayes import GaussianNB
+
+X = pd.read_excel(r'C:\Program Files\JetBrains\PyCharm 2021.2.3\bin\creditcard.xlsx', engine='openpyxl')
+print(X)
+a,b=X(return_a_b=True)
+gb=GaussianNB()
+p=gb.fit(x1,y1).predict(yt)

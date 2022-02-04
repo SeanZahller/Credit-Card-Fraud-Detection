@@ -1,0 +1,8 @@
+name: cscd429-team6-project
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - -r requirements.txt
